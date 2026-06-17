@@ -3,7 +3,7 @@ import Container from './Container'
 
 const Banner = () => {
   return (
-    <div className='bg-[url(/banner.png)] w-full py-50 relative bg-no-repeat bg-cover after:absolute after:left-0 after:top-0 after:w-full after:bg-[rgba(0,0,0,0.3)] after:h-full z-1 after:z-[-1]'>
+    <div className='bg-[url(/banner.png)] w-full lg:py-45 py-20 relative bg-no-repeat bg-cover after:absolute after:left-0 after:top-0 after:w-full after:bg-[rgba(0,0,0,0.3)] after:h-full z-1 after:z-[-1]'>
       <Container>
         <div className="flex justify-center">
           <div className="w-2/3 text-center">
