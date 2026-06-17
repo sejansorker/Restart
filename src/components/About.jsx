@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from './Container'
 
 const About = () => {
   return (
-    <div>
+    <div className='my-50'>
         <Container>
             <div className="">
+                
                 
             </div>
         </Container>
