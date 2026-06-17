@@ -59,11 +59,6 @@ const Banner = () => {
               </button>
             </div>
           </div>
-
-
-         
-
-
         </div>
       </Container>
     </div>
