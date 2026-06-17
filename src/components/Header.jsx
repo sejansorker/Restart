@@ -72,7 +72,7 @@ const Header = () => {
             <p className="font-main text-[18px] font-medium">
               400173 464 799
             </p>
-            <button className="px-8 py-3 bg-[#C4995D] rounded-2xl text-[16px] font-bold cursor-pointer">
+            <button className="px-8 py-3 bg-[#C4995D] rounded-2xl text-[16px] font-bold cursor-pointer text-white">
               Book Now
             </button>
           </div>
