@@ -10,9 +10,12 @@ const About = () => {
     <div className='my-40'>
       <Container>
         <div className="flex justify-center gap-x-15">
-          <div className="w-1/2">
+          <div className="w-1/2 relative">
             <img src={Room} className='w-full h-158 rounded-2xl' alt="" />
-            <div className="w-50 h-50 bg-[#C4995D]"></div>
+            <div className="w-50 h-50 bg-[#C4995D] grid place-content-center absolute text-center -bottom-[100px] left-0 rounded-2xl">
+              <h2 className='text-[40px] text-white font-bold '>12+</h2>
+              <p className='text-[22px] px-5 text-white font-medium font-main'>Year of Experience </p>
+            </div>
           </div>
           <div className="w-1/2">
             <div className="">
@@ -40,7 +43,7 @@ const About = () => {
                   <i className='text-[22px] font-bold'><FaRegUser />
                   </i>
                 </div>
-                <p className='text-[20px] font-main font-medium text-[#000] '>Luxury Accommodations</p>
+                <p className='text-[20px] font-main font-medium text-[#000] '>Best Price Guaranteo</p>
               </div>
               <div className="flex  gap-x-5 pt-4">
                 <i className='text-[44px]'><TbSignatureOff /></i>
