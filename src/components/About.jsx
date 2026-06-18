@@ -7,7 +7,7 @@ import { TbSignatureOff } from 'react-icons/tb'
 import Room from "../assets/room.png"
 const About = () => {
   return (
-    <div className='my-40'>
+    <div className='py-30 bg-[rgba(196,153,93,0.13)]'>
       <Container>
         <div className="flex justify-center gap-x-15">
           <div className="w-1/2 relative">
@@ -54,6 +54,33 @@ const About = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="pt-40 flex items-center justify-between gap-x-2">
+          <div className="w-1/4">
+          <div className="bg-white border-1 rounded-[8px] text-center border-gray-500 py-7">
+             <h2 className='text-[48px] font-main font-semibold text-black '>150+</h2>
+             <p className='text-[22px] text-black font-main font-medium '>Luxury Rooms</p>
+          </div>
+          </div>
+          <div className="w-1/4">
+          <div className="bg-white border-1 rounded-[8px] text-center border-gray-500 py-7">
+             <h2 className='text-[48px] font-main font-semibold text-black '>85K+</h2>
+             <p className='text-[22px] text-black font-main font-medium '>Happy Guests</p>
+          </div>
+          </div>
+          <div className="w-1/4">
+          <div className="bg-white border-1 rounded-[8px] text-center border-gray-500 py-7">
+             <h2 className='text-[48px] font-main font-semibold text-black '>28+</h2>
+             <p className='text-[22px] text-black font-main font-medium '>Top Destinitions</p>
+          </div>
+          </div>
+          <div className="w-1/4">
+          <div className="bg-white border-1 rounded-[8px] text-center border-gray-500 py-7">
+             <h2 className='text-[48px] font-main font-semibold text-black '>24/7</h2>
+             <p className='text-[22px] text-black font-main font-medium '>Concierge Service</p>
+          </div>
+          </div>
+          
         </div>
       </Container>
     </div>
