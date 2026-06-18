@@ -1,6 +1,8 @@
 import React from 'react'
 import Container from './Container'
 import Dulax from "../assets/delux.jpg"
+import Expen from "../assets/expantive.jpg"
+import Situ from "../assets/suti.jpg"
 import { FaArrowRight, FaUser } from 'react-icons/fa'
 import { MdArrowRightAlt, MdBed } from 'react-icons/md'
 import { LuDiameter } from 'react-icons/lu'
@@ -25,41 +27,41 @@ const Card = () => {
               <div className="flex gap-x-7 text-[16px] font-main font-normal text-[rgba(0,0,0,0.44)]">
                 <h6 className='flex items-center gap-x-1'><i><FaUser /></i> 2 Guests</h6>
                 <h6 className='flex items-center gap-x-1'><i><MdBed /></i> 1 Bed</h6>
-                <h6 className='flex items-center gap-x-1'><i><LuDiameter /></i> 32 m</h6>
+                <h6 className='flex items-center gap-x-1'><i><LuDiameter /></i> 32 m²</h6>
               </div>
               <p className='flex items-center text-[16px] gap-x-3 font-main font-medium text-black py-5 mt-3 cursor-pointer w-fit'>View Detalls <i className='text-[28px]'><MdArrowRightAlt /></i></p>
             </div>
           </div>
           <div className="w-[31%] bg-white shadow-lg rounded-2xl">
             <div className="relative">
-              <img className='w-full h-80 rounded-t-2xl' src={Dulax} alt="" />
+              <img className='w-full h-80 rounded-t-2xl' src={Expen} alt="" />
               <div className="absolute top-5 right-5 rounded-[10px]  bg-[#C4995D]">
-                <p className='px-7 py-3 text-[18px] font-main font-normal text-white'>From $120/night</p>
+                <p className='px-7 py-3 text-[18px] font-main font-normal text-white'>From $160/night</p>
               </div>
             </div>
             <div className=" pl-5 pb-10">
-              <h5 className='py-4 font-main font-medium text-[20px] text-black mt-3'>Deluxe Room</h5>
+              <h5 className='py-4 font-main font-medium text-[20px] text-black mt-3'>Executive Sulte</h5>
               <div className="flex gap-x-7 text-[16px] font-main font-normal text-[rgba(0,0,0,0.44)]">
                 <h6 className='flex items-center gap-x-1'><i><FaUser /></i> 2 Guests</h6>
                 <h6 className='flex items-center gap-x-1'><i><MdBed /></i> 1 Bed</h6>
-                <h6 className='flex items-center gap-x-1'><i><LuDiameter /></i> 32 m</h6>
+                <h6 className='flex items-center gap-x-1'><i><LuDiameter /></i> 45 m²</h6>
               </div>
               <p className='flex items-center text-[16px] gap-x-3 font-main font-medium text-black py-5 mt-3 cursor-pointer w-fit'>View Detalls <i className='text-[28px]'><MdArrowRightAlt /></i></p>
             </div>
           </div>
           <div className="w-[31%] bg-white shadow-lg rounded-2xl">
             <div className="relative">
-              <img className='w-full h-80 rounded-t-2xl' src={Dulax} alt="" />
+              <img className='w-full h-80 rounded-t-2xl' src={Situ} alt="" />
               <div className="absolute top-5 right-5 rounded-[10px]  bg-[#C4995D]">
-                <p className='px-7 py-3 text-[18px] font-main font-normal text-white'>From $120/night</p>
+                <p className='px-7 py-3 text-[18px] font-main font-normal text-white'>From $200/night</p>
               </div>
             </div>
             <div className=" pl-5 pb-10">
-              <h5 className='py-4 font-main font-medium text-[20px] text-black mt-3'>Deluxe Room</h5>
+              <h5 className='py-4 font-main font-medium text-[20px] text-black mt-3'>Family Suite</h5>
               <div className="flex gap-x-7 text-[16px] font-main font-normal text-[rgba(0,0,0,0.44)]">
-                <h6 className='flex items-center gap-x-1'><i><FaUser /></i> 2 Guests</h6>
-                <h6 className='flex items-center gap-x-1'><i><MdBed /></i> 1 Bed</h6>
-                <h6 className='flex items-center gap-x-1'><i><LuDiameter /></i> 32 m</h6>
+                <h6 className='flex items-center gap-x-1'><i><FaUser /></i> 4 Guests</h6>
+                <h6 className='flex items-center gap-x-1'><i><MdBed /></i> 2 Bed</h6>
+                <h6 className='flex items-center gap-x-1'><i><LuDiameter /></i> 60 m²</h6>
               </div>
               <p className='flex items-center text-[16px] gap-x-3 font-main font-medium text-black py-5 mt-3 cursor-pointer w-fit'>View Detalls <i className='text-[28px]'><MdArrowRightAlt /></i></p>
             </div>
