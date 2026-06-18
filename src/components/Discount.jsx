@@ -1,20 +1,30 @@
 import React from 'react'
 import Container from './Container'
-
+import Fast from "../assets/fast.jpg"
+import Sec from "../assets/sec.jpg"
 const Discount = () => {
     return (
         <div className='bg-[#033238] py-15'>
             <Container>
-                <div className="flex items-center">
+                <div className="flex items-center justify-between">
                     <div className="w-[32%]">
                         <h5 className='text-[22px] text-[#C4995D] font-main font-medium pb-6'>EXCLUSIVE OFFERS</h5>
                         <h3 className='font-main font-semibold text-white text-[36px] pb-6'>Special Offers for Memorable Stays</h3>
-                        <p className='text-[18px] text-[#fff] font-main font-normal pb-8'>Book diroratly on our webalte and unlock
+                        <p className='text-[18px] text-white font-main font-normal pb-8'>Book diroratly on our webalte and unlock
                             escishe benfits and olscounts.</p>
                             <button className='bg-[#C4995D] py-3 px-6 text-black text-[18px] font-main font-normal rounded-[7px]'>View All Offers</button>
                     </div>
-                    <div className="w-[32%]"></div>
-                    <div className="w-[32%]"></div>
+                    <div className="w-[32%]">
+                        <div className="relative">
+                            <img src={Fast} alt="" />
+                            <div className="bg-[rgba(125,85,40,0.4)] absolute bottom-0 left-0 w-full py-10"></div>
+                        </div>
+                    </div>
+                    <div className="w-[32%]">
+                       <div className="">
+                            <img src={Sec} alt="" />
+                        </div>
+                    </div>
                 </div>
             </Container>
         </div>
