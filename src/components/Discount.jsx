@@ -14,17 +14,18 @@ const Discount = () => {
                             escishe benfits and olscounts.</p>
                             <button className='bg-[#C4995D] py-3 px-6 text-black text-[18px] font-main font-normal rounded-[7px]'>View All Offers</button>
                     </div>
-                    <div className="w-[32%]">
+                    <div className="w-[32%] ">
                         <div className="relative">
-                            <img src={Fast} alt="" />
-                            <div className="bg-[rgba(125,85,40,0.4)] absolute bottom-0 left-0 w-full py-10"></div>
+                            <img className='w-full h-100 rounded-lg' src={Fast} alt="" />
+                            <div className="bg-[rgba(125,85,40,0.4)] absolute bottom-0 left-0 w-full py-8 pl-6">
+                                <h6 className='font-main font-medium text-[20px] text-white '>Season Solo</h6>
+                                <h4 className='font-main font-medium text-[28px] text-white py-2.5'>Up to 25% Off</h4>
+                                <p className='font-main font-normal text-[18px] text-white pb-6'>On Selncled Rbomns</p>
+                                <button className='py-2 px-4 border-2 border-white rounded-[7px] text-white text-[16px] '>Book Now</button>
+                            </div>
                         </div>
                     </div>
-                    <div className="w-[32%]">
-                       <div className="">
-                            <img src={Sec} alt="" />
-                        </div>
-                    </div>
+                    
                 </div>
             </Container>
         </div>
