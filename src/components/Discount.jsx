@@ -4,7 +4,7 @@ import Fast from "../assets/fast.jpg"
 import Sec from "../assets/sec.jpg"
 const Discount = () => {
     return (
-        <div className='bg-[#033238] py-15'>
+        <div className='bg-[#033238] py-25'>
             <Container>
                 <div className="flex items-center justify-between">
                     <div className="w-[32%]">
