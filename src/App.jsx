@@ -6,6 +6,7 @@ import Discount from "./components/Discount"
 import Header from "./components/Header"
 import Offers from "./components/Offers"
 import Relax from "./components/Relax"
+import Tip from "./components/Tip"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
    <Discount/>
    <Offers/>
    <Relax/>
+   <Tip/>
     </>
   )
 }
