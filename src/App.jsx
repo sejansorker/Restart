@@ -5,6 +5,7 @@ import Container from "./components/Container"
 import Discount from "./components/Discount"
 import Header from "./components/Header"
 import Offers from "./components/Offers"
+import Relax from "./components/Relax"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
    <Card/>
    <Discount/>
    <Offers/>
+   <Relax/>
     </>
   )
 }
