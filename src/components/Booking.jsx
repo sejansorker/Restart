@@ -8,7 +8,7 @@ const BookStay = () => {
     return (
         <section className="py-20 bg-[#F8F6F3]">
             <Container>
-                <div className="flex flex-col lg:flex-row gap-12 items-center">
+                <div className="flex flex-col lg:flex-row gap-12 items-center bg-[#FCF8F6]">
                     <div className="w-full lg:w-[35%]">
                         <p className="uppercase text-[#C4995D] text-sm font-semibold tracking-wider">
                             Plan Your Stay

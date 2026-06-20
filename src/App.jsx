@@ -9,6 +9,7 @@ import Offers from "./components/Offers"
 import Relax from "./components/Relax"
 import Subscribe from "./components/Subscribe"
 import Tip from "./components/Tip"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
    <Tip/>
    <Subscribe/>
    <Booking/>
+   <Footer/>
     </>
   )
 }
