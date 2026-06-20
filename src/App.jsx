@@ -6,6 +6,7 @@ import Discount from "./components/Discount"
 import Header from "./components/Header"
 import Offers from "./components/Offers"
 import Relax from "./components/Relax"
+import Subscribe from "./components/Subscribe"
 import Tip from "./components/Tip"
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
    <Offers/>
    <Relax/>
    <Tip/>
+   <Subscribe/>
     </>
   )
 }
