@@ -1,5 +1,6 @@
 import About from "./components/About"
 import Banner from "./components/Banner"
+import Booking from "./components/Booking"
 import Card from "./components/Card"
 import Container from "./components/Container"
 import Discount from "./components/Discount"
@@ -22,6 +23,7 @@ function App() {
    <Relax/>
    <Tip/>
    <Subscribe/>
+   <Booking/>
     </>
   )
 }
